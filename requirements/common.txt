@@ -1,0 +1,6 @@
+# Python 3.8. h5py reads ModelNet40, ftfy/regex serve the upstream BPE tokenizer.
+numpy==1.23.5
+h5py>=3.7,<3.12
+ftfy>=6.1,<6.3
+regex
+matplotlib>=3.5,<3.8

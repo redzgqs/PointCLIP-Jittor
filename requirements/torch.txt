@@ -1,0 +1,11 @@
+# Install the matching CUDA torch / torchvision pair first (see docs/setup.md).
+-r common.txt
+Pillow<10
+yacs==0.1.8
+tabulate==0.9.0
+tensorboard>=2.11,<2.15
+gdown>=4.7,<5.3
+scipy>=1.8,<1.11
+scikit-learn>=1.0,<1.4
+future
+tqdm

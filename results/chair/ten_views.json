@@ -1,0 +1,53 @@
+{
+  "sample_id": "chair/chair_0978.ply",
+  "true_class": "chair",
+  "points_identical": true,
+  "views": 10,
+  "resolution": 224,
+  "input_points": 1024,
+  "mask_difference_pixels": 0,
+  "max_abs_depth_error": 3.5762786865234375e-07,
+  "min_view_cosine": 0.9999971312193879,
+  "mean_view_cosine": 0.9999978228552177,
+  "minimum_prompt_cosine": 0.9999978280995806,
+  "head": {
+    "author": {
+      "jittor_top5": [
+        "chair",
+        "laptop",
+        "monitor",
+        "keyboard",
+        "bookshelf"
+      ],
+      "pytorch_top5": [
+        "chair",
+        "laptop",
+        "monitor",
+        "keyboard",
+        "bookshelf"
+      ],
+      "matching_top1": true,
+      "score_cosine": 0.9999999288468366,
+      "max_abs_logit_error": 0.02516937255859375
+    },
+    "no_adapter": {
+      "jittor_top5": [
+        "lamp",
+        "stool",
+        "cup",
+        "sofa",
+        "chair"
+      ],
+      "pytorch_top5": [
+        "lamp",
+        "stool",
+        "cup",
+        "sofa",
+        "chair"
+      ],
+      "matching_top1": true,
+      "score_cosine": 0.9999999466813944,
+      "max_abs_logit_error": 0.036815643310546875
+    }
+  }
+}

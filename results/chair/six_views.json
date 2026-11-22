@@ -1,0 +1,63 @@
+{
+  "sample": "chair_0978",
+  "backend": "Jittor CUDA",
+  "matrix_precision": "TF32",
+  "input_shape": [
+    1024,
+    3
+  ],
+  "output_shape": [
+    6,
+    128,
+    128
+  ],
+  "dtype": "float32",
+  "tolerance": 1e-06,
+  "max_abs_error": 4.76837158203125e-07,
+  "exactly_equal": false,
+  "within_tolerance": true,
+  "per_view": [
+    {
+      "view": 1,
+      "occupied_pixels": 759,
+      "mask_differences": 0,
+      "max_abs_error": 3.5762786865234375e-07,
+      "different_values": 190
+    },
+    {
+      "view": 2,
+      "occupied_pixels": 348,
+      "mask_differences": 0,
+      "max_abs_error": 3.5762786865234375e-07,
+      "different_values": 117
+    },
+    {
+      "view": 3,
+      "occupied_pixels": 678,
+      "mask_differences": 0,
+      "max_abs_error": 4.76837158203125e-07,
+      "different_values": 132
+    },
+    {
+      "view": 4,
+      "occupied_pixels": 353,
+      "mask_differences": 0,
+      "max_abs_error": 4.76837158203125e-07,
+      "different_values": 167
+    },
+    {
+      "view": 5,
+      "occupied_pixels": 700,
+      "mask_differences": 0,
+      "max_abs_error": 3.5762786865234375e-07,
+      "different_values": 215
+    },
+    {
+      "view": 6,
+      "occupied_pixels": 534,
+      "mask_differences": 0,
+      "max_abs_error": 3.5762786865234375e-07,
+      "different_values": 75
+    }
+  ]
+}
