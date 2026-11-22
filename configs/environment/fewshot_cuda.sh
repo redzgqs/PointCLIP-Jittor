@@ -7,7 +7,7 @@ fi
 _pointclip_fs_project="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../.." && pwd -P)" || return 1
 _pointclip_fs_cuda="$_pointclip_fs_project/.cache/fewshot/jtcuda"
 if [[ ! -x "$_pointclip_fs_cuda/bin/nvcc" || ! -f "$_pointclip_fs_cuda/sources.json" ]]; then
-    echo 'Prepare the project prefix first: .venv-jittor/bin/python scripts/prepare_fewshot_cuda.py' >&2
+    echo 'Prepare the project prefix first: .venv-jittor/bin/python -m scripts.setup.prepare_cuda' >&2
     unset _pointclip_fs_project _pointclip_fs_cuda
     return 1
 fi

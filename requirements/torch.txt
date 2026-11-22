@@ -1,4 +1,4 @@
-# Install the matching CUDA torch / torchvision pair first (see docs/setup.md).
+# Install the matching CUDA torch / torchvision pair first (see docs/reproduction.md).
 -r common.txt
 Pillow<10
 yacs==0.1.8

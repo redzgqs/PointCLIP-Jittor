@@ -18,20 +18,12 @@ __pycache__/
 *.log
 *.zip
 
-# Machine-local notes and credentials
-/pointclip_output/
-/复现手记/
-/个人笔记/
-GitHub建仓指南.md
-后续实验计划.md
+# Editor settings and local environment
 /.vscode/
 /.idea/
 .env
 .env.*
 *.pem
 *.key
-*.docx
-*.pptx
-~$*
 .DS_Store
 Thumbs.db
